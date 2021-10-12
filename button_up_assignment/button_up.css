@@ -1,0 +1,26 @@
+.search{
+    border-radius: 20%;
+    color: rgb(0, 119, 255);
+    background-color: gainsboro;
+    width: 150px;
+    height: 30px;
+    font-size: medium;
+    border: 3px solid darkblue;
+}
+
+.plus{
+    border-radius: 50%;
+    color:ghostwhite;
+    background-color: lightseagreen;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+}
+
+.account{
+    background-color: blue;
+    color:white;
+    border: black;
+    box-shadow: 5px 5px 5px black;
+}

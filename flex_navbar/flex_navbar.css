@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    height: 70px;
+    width: 1500px;
+    background-color: darkslategray;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title{
+    justify-content: flex-start;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: cyan;
+    color: white;
+    height:30px;
+    width: 100px;
+    box-shadow: 2.5px 5px black;
+}

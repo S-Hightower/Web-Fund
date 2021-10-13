@@ -1,24 +1,55 @@
-*{
-    margin: 0%;
-    padding: 0%;
+.container{
+    background-color: lightsteelblue;
+    padding: 10px;
+    height: auto;
+    width: 1100px;
 }
+
 h1{
     text-align: center;
     color: darkblue;
     font-size: 3em;
+    padding: 15px;
 }
 
 .topbox{
     height: 300px;
-    width: 2000px;
+    width: 1000px;
     background-color: cyan;
+    margin: 30px;
+
+
 }
 
-.images{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 5px;
-    height: 5px;
-    padding: 50px;
+.middlebox{
+    height: 300px;
+    width: 1000px;
+    background-color: pink;
+    margin: 30px;
+}
+
+.bottombox{
+    height: 300px;
+    width: 1000px;
+    background-color: white;
+    margin: 30px;
+}
+
+.topbox > img{
+    height:auto;
+    width: 250px;
+    margin: 30px;
+} 
+
+.middlebox >img{
+    height:auto;
+    width: 250px;
+    margin: 30px;
+    margin-left: 170px;
+}
+
+.bottombox > img{
+    height:auto;
+    width: 250px;
+    margin: 30px;
 }

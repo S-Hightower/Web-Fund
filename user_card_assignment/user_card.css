@@ -4,22 +4,7 @@
 }
 
 .container{
+    background-color: aquamarine;
     height: 500px;
     width: 800px;
-    border: 10px gray;
-    background-color: greenyellow;
-    display:flex;
-    margin: 50px;
-}
-
-.topbox{
-    height: 125px;
-    width: 800px;
-    background-color: royalblue;
-    display: inline-flex;
-}
-
-img{
-    height:auto;
-    width: 30px;
 }

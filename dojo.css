@@ -1,0 +1,71 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .btn{
+    background-color: blue;
+    color:white;
+    border: black;
+    box-shadow: 5px 5px 5px black;
+  }
+/*ROW AND COLUMN*/
+  .row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: turquoise;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: turquoise;
+}
+
+.col-3 {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: turquoise;
+}
+/*NAVBAR*/
+.nav{
+    height: 75px;
+    width: 1200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav > h1{
+    justify-content: flex-start;
+    color: white;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.nav > a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}

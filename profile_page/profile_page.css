@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 675px;
+    width: 1200px;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    border: 5px solid black
+}
+
+.nav{
+    height: 75px;
+    width: 1200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav > h1{
+    justify-content: flex-start;
+    color: white;
+    margin-left: 20px;
+    font-size: xx-large;
+}
+
+.nav > a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.btn{
+    background-color: cyan;
+    color: white;
+    height:30px;
+    width: 100px;
+    margin-left: 550px;
+    font-size: large;
+}
+/* END OF NAV BAR*/
+.border_box{
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    border: 5px solid darkgrey;
+    margin-top: 150px;
+    margin-left: -1100px;
+
+}
+
+.topbox{
+    background-color: rgb(2, 143, 199);
+    height: 75px;
+    width: 600px;
+}
+
+#circle{
+    height:auto;
+    width: 85px;
+    margin-left: 45px;
+    margin-top:-45px;
+}
+
+h1{
+    margin-left: 45px;
+}
+
+#marker{
+    display: inline-block;
+    height:auto;
+    width: 20px;
+    margin-left: 45px;
+}
+
+h2{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.text{
+    font-size: larger;
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.links{
+    margin-top: 20px;
+}
+
+#gear{
+    display: inline-block;
+    height:auto;
+    width: 20px;
+    margin-left: 45px;
+    margin-right: 10px;
+}
+
+h3{
+    display: inline-block;
+    text-decoration: underline;
+}
+/* END OF USER CARD CODE */
+
+.education_box{
+    background-color: white;
+    height: 150px;
+    width: 600px;
+    border: 5px solid darkgrey;
+    margin-top: 75px;
+    margin-left: -5px;
+}
+
+.upperbox{
+    background-color: rgb(127, 133, 133);
+    height: 50px;
+    width: 600px;
+}
+
+.education_box > h2{
+    margin-top: -40px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.stats{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: larger;
+}
+/*END OF EDUCATION CARD CODE*/
+
+.requests{
+    background-color: white;
+    height: 175px;
+    width: 300px;
+    border: 5px solid darkgrey;
+    margin-top: -525px;
+    margin-left: 700px
+}
+
+.requests_topbar{
+    background-color: rgb(127, 133, 133);
+    height: 50px;
+    width: 300px;
+}
+
+.requests_topbar > h2{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.todd > img{
+    height:auto;
+    width:45px;
+    display: flex;
+    align-items: center;
+}

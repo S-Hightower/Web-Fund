@@ -25,6 +25,7 @@
     color: white;
     margin-left: 20px;
     font-size: xx-large;
+    font-weight: bolder;
 }
 
 .nav > a{
@@ -34,15 +35,19 @@
     display: flex;
     justify-content: left;
     margin-left: 10px;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 .btn{
-    background-color: cyan;
+    background-color: rgb(2, 143, 199);
     color: white;
     height:30px;
     width: 100px;
     margin-left: 550px;
     font-size: large;
+    font-weight: bold;
+    border: none;
 }
 /* END OF NAV BAR*/
 .border_box{
@@ -156,10 +161,74 @@ h3{
     margin-top: 10px;
     margin-left: 40px;
 }
-
+.adrien > img,
+.anne > img,
+.aloyne > img,
+.arry > img,
+.phil > img,
 .todd > img{
     height:auto;
     width:45px;
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
 }
+.adrien > p,
+.anne > p,
+.aloyne > p,
+.arry > p,
+.phil > p,
+.todd > p{
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-size: large;
+    vertical-align: top;
+}
+.phil,
+.todd{
+    margin: 10px 20px 10px 20px;
+}
+/*END OF CONNECTION REQUESTS*/
+
+.connection{
+    background-color: white;
+    height: 310px;
+    width: 300px;
+    border: 5px solid darkgrey;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.connection_topbar{
+    background-color: rgb(127, 133, 133);
+    height: 50px;
+    width: 300px;
+}
+
+.connection_topbar > h2{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.adrien,
+.anne,
+.aloyne,
+.arry{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.bottombar{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    border-top: 3px solid darkgrey;
+    margin-top: 11px;
+}
+.bottombar > h3{
+    color:rgb(2, 143, 199);
+    margin-left: 15px;
+    margin-top: 5px;
+}
+/* END OF YOUR CONNECTIONS CODE*/

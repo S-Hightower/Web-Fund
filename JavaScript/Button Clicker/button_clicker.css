@@ -166,11 +166,14 @@
 .leftcolumnbottom > #secondLine{
     margin-top: 125px;
     margin-right: -300px;
+    margin-left: -225px;
+    display: inline-block;
+    width: 275px;
 }
 
 .leftcolumnbottom > #thirdLine{
     margin-top: 150px;
-    margin-left: -200px;
+    margin-left: 25px;
 }
 
 .leftcolumnbottom > button{

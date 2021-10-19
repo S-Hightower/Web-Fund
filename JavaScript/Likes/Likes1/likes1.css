@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    height: 200px;
+    width: 400px;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 100px;
+    display: flex;
+}
+
+.box > h1{
+    width: 350px;
+}
+
+.box > p{
+    font-size: large;
+    margin-top: 150px;
+    margin-left: 15px;
+}
+
+#likes{
+    display: flex;
+}
+
+.box > button{
+    height: 40px;
+    width: 100px;
+    background-color: yellow;
+    box-shadow: 2px 5px black;
+    font-weight: 700;
+    margin-right: -450px;
+}

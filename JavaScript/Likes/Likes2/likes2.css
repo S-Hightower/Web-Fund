@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height:800px;
+    width: 1200px;
+    border: 5px solid black;
+    margin: 25px;
+}
+
+.container > .topbar{
+    height: 50px;
+    width: 1000px;
+    background-color: black;
+    margin-left: 100px;
+}
+.container > .topbar > h1{
+    color: white;
+    margin-left: 15px;
+}
+/*END OF TOPBAR*/
+
+.container > h2{
+    margin-left: 500px;
+    margin-top: 15px;
+    font-size: xx-large;
+}
+/*BEGINNING OF USERBOX*/
+.container > .userbox{
+    margin-left: 100px;
+    border: 3px solid black;
+    height: 350px;
+    width: 250px; 
+    margin-top: 25px;
+}
+.userbox > img{
+    height:auto;
+    width:150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.userbox > p{
+    font-size: larger;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.userbox > h2{
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+/*END OF USERBOX*/
+.tweets > .neil_box{
+    border: 3px solid black;
+    height: 200px;
+    width: 600px;
+    margin-left: 500px;
+    margin-top: -355px;
+}
+
+.tweets > .neil_box > .neil_topbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.neil_topbar > h2{
+    font-size: xx-large;
+}
+
+.neil_topbar > h4{
+    margin-left: 100px;
+}
+
+.neil_topbar > button{
+    background-color: yellow;
+    box-shadow: 2px 5px black;
+    font-weight: 700;
+    height: 40px;
+    width: 75px;
+    margin-right: -50px;
+}
+
+.neil_box > p{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+.neil_box > span{
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    text-decoration: underline;
+    margin-left: 250px;
+}
+/*END OF NEIL BOX*/
+.tweets > .nichole_box{
+    border: 3px solid black;
+    height: 200px;
+    width: 600px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+.tweets > .nichole_box > .nichole_topbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.nichole_topbar > h2{
+    font-size: xx-large;
+}
+
+.nichole_topbar > h4{
+    margin-left: 100px;
+}
+
+.nichole_topbar > button{
+    background-color: yellow;
+    box-shadow: 2px 5px black;
+    font-weight: 700;
+    height: 40px;
+    width: 75px;
+    margin-right: -50px;
+}
+
+.nichole_box > p{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.nichole_box > p > span{
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    text-decoration: underline;
+}
+/*END OF NICHOLE BOX*/
+
+.tweets > .jim_box{
+    border: 3px solid black;
+    height: 200px;
+    width: 600px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+.tweets > .jim_box > .jim_topbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.jim_topbar > h2{
+    font-size: xx-large;
+}
+
+.jim_topbar > h4{
+    margin-left: 100px;
+}
+
+.jim_topbar > button{
+    background-color: yellow;
+    box-shadow: 2px 5px black;
+    font-weight: 700;
+    height: 40px;
+    width: 75px;
+    margin-right: -50px;
+}
+
+.jim_box > p{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.jim_box > p > span{
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    text-decoration: underline;
+}

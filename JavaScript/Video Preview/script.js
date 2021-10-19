@@ -1,14 +1,14 @@
 console.log("page loaded...");
 
-var clip = document.querySelectorAll('.clip');
+var clip = document.querySelector("#clip");
 
 clip.addEventListener('mouseenter')
-function playClip(elvideo) {
+function playClip(element) {
     clip.play();    
 }
     
 clip.addEventListener('mouseout')
-function pauseClip(video) {
+function pauseClip(element) {
     clip.pause();    
 }
 

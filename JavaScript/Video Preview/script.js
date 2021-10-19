@@ -1,10 +1,12 @@
 console.log("page loaded...");
 
-function playVideo(element) {
-    element.classList.play("video");    
+var raindrops = document.querySelector.vid;
+
+function playVid(video) {
+    vid.play;    
 }
     
-function pauseVideo(element) {
-    element.classList.pause("video");    
+function pauseVid(video) {
+    vid.pause;    
 }
 

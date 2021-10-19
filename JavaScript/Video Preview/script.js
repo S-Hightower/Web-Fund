@@ -1,12 +1,14 @@
 console.log("page loaded...");
 
-var raindrops = document.querySelector.vid;
+var clip = document.querySelectorAll('.clip');
 
-function playVid(video) {
-    vid.play;    
+clip.addEventListener('mouseenter')
+function playClip(elvideo) {
+    clip.play();    
 }
     
-function pauseVid(video) {
-    vid.pause;    
+clip.addEventListener('mouseout')
+function pauseClip(video) {
+    clip.pause();    
 }
 
